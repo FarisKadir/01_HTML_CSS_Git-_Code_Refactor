@@ -24,6 +24,21 @@ body {
     color: #d9dcd6;
 }
 
+nav     {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
 /* .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,20 +57,6 @@ body {
     margin-left: 25px;
 } */
 
-nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-
-}
-
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 25px;
-}
 
 a {
     color: #ffffff;
@@ -109,6 +110,12 @@ p {
     text-align: center;
 }
 
+.benefits img   {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
 /* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -139,7 +146,7 @@ p {
     text-align: center;
 } */
 
-.benefit-lead img {
+/* .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -155,8 +162,18 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
+
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* 
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -182,21 +199,30 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+} */
+
+section img {
+    max-height: 200px;
 }
 
-.search-engine-optimization img {
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
 .online-reputation-management img {
-    max-height: 200px;
+    max-height: 200px;s
 }
 
 .social-media-marketing img {
     max-height: 200px;
+} */
+
+section h2{
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.search-engine-optimization h2 {
+/* .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -209,9 +235,21 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+} */
+
+
+aside   {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
-.footer {
+aside h2    {
+    font-size: 20px;
+}
+
+/* .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -220,4 +258,4 @@ p {
 
 .footer h2 {
     font-size: 20px;
-}
+} */
