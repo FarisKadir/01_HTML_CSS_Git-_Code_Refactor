@@ -26,5 +26,5 @@ THEN I find a concise, descriptive title
 
 ## Mock-Up
 
-![Image of Mock up] (01-html-css-git-homework-demo.png)
+![Image of Mock up](01-html-css-git-homework-demo.png)
 
